@@ -4,10 +4,10 @@
 
 export const environment = {
   production: false,
-  baseUrl: '', // <Your API base url>
-  imageUrl: '', // <Your API url for image resize>
-  productUrl: '', // <Your store base url>
-  pluginUrl: '' //<Your API url>
+  baseUrl: 'https://8000-emerald-ant-kkoimthi.ws-us16.gitpod.io/api', // <Your API base url>
+  imageUrl: 'https://8000-emerald-ant-kkoimthi.ws-us16.gitpod.io/api/media/image-resize', // <Your API url for image resize>
+  productUrl: 'http://localhost:4205/#/', // <Your store base url>
+  pluginUrl: 'https://8000-emerald-ant-kkoimthi.ws-us16.gitpod.io' //<Your API url>
 };
 
 /*
