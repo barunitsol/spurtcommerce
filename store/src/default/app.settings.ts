@@ -18,6 +18,6 @@ export class Settings {
 export class AppSettings {
     public settings = new Settings(
         'Spurt Commerce',  // theme name
-        'green'     // green, blue, red, pink, purple, grey
+        'red'     // green, blue, red, pink, purple, grey
     );
 }

@@ -52,7 +52,7 @@
             <div class="py-1">
             </div>
             <div class="divider mt-1"></div>
-            <h2 class="py-2 new-price">$ {{(productDetail.productDetails$ | async)?.price}}</h2>
+            <h2 class="py-2 new-price">₹ {{(productDetail.productDetails$ | async)?.price}}</h2>
             <div class="py-1">
                 <app-controls-product-detail [product]="productDetail.productDetails$ | async" [type]="'detail'"></app-controls-product-detail>
             </div>

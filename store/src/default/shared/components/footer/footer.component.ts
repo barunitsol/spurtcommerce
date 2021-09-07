@@ -26,10 +26,7 @@ export class FooterComponent implements OnInit {
     params.keyword = '';
     this.listSandbox.getPageList(params);
   }
-    // dowload link for mobile app
-    downloadApp() {
-        window.open('https://play.google.com/store/apps/details?id=com.piccosoft.spurtcommerce');
-    }
+
     openLink(link) {
       window.open(link);
 
