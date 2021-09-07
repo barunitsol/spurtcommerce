@@ -14,8 +14,8 @@
 
 export const environment = {
     production: false,
-    storeUrl: 'https://8000-emerald-ant-kkoimthi.ws-us16.gitpod.io/api/', // <Your API base url>
-    imageUrl: 'https://8000-emerald-ant-kkoimthi.ws-us16.gitpod.io/api/media/image-resize' // <Your API url for image resize>
+    storeUrl: 'http://localhost:9000/api/', // <Your API base url>
+    imageUrl: 'http://localhost:9000/api/media/image-resize', // <Your API url for image resize>
 };
 
 /*
